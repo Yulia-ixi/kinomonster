@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<title>Обо мне</title>
+</head>
+<body>
+	<h1> <spen><p align="center">Основная информация</p></spen></h1>
+	  <div style="background-color: #ff0346; color:black; padding: 10px;">
+		<hr width="50%" align="center"/>
+		        <p align="center" style="color:#c0ff00"> Привет! Меня зовут Юлия. Я учусь верстке. Это моя первая страница...и надеюсь не последняя... </p>
+	  </div>
+	<p align="center"> Вот что я умею делать: </p>
+		
+	 <ol>
+       <div id="sp1">
+       <li>Создавать нумерованный список</li>
+       <li>Создавать элементы выбора</li>
+       <li> Выбор одного варианта </li>
+       <form>
+        <input type="radio" name="gender" value="male"/> Да <br/>
+        <input type="radio" name="gender" value="female"/> Нет <br/>
+       </form>
+      <li> Выбор нескольких вариантов </li>
+      <form>
+        <input type="checkbox" name="gender" value="1"/> Затрудняюсь ответить <br/>
+        <input type="checkbox" name="gender" value="2"/> Мне это нравится <br/>
+        <input type="checkbox" name="gender" value="2"/> Надо подумать <br/>
+       </form>
+	  <li><a href="https://github.com/Yulia-ixi" target="_blank"> Создавать ссылки на сайт</a>
+	  </li> 
+	  <div id="table1">
+	  <li> Создавать таблицу</li>
+	  <table border="3">
+	  	<tr>
+	  		<td align="center" bgcolor="orange" colspan="7"> Наше расписание </td>
+	  	</tr>	
+	  	<tr>
+	  		<td align="center">Понедельник</td>
+	  		<td align="center">Вторник</td>
+	  		<td align="center">Среда</td>
+	  		<td align="center">Четверг</td>
+	  		<td align="center">Пятница</td>
+	  		<td align="center" bgcolor="red">Суббота</td>
+	  		<td align="center" bgcolor="red">Воскресенье</td>
+	  	</tr>
+	  	<tr>
+	  		<td align="center">легкая атлетика</td>
+	  		<td align="center">ниндзя</td>
+	  		<td align="center">легкая атлетика</td>
+	  		<td align="center">ниндзя</td>
+	  		<td align="center">отдых</td>
+	  		<td align="center"colspan="6">Выходной</td>
+	  	</tr>
+	  	<tr>
+	  		<td align="center">19.00-20.00</td>
+	  		<td align="center">19.00-20.00</td>
+	  		<td align="center">19.00-20.00</td>
+	  		<td align="center">19.00-20.00</td>
+	  		<td align="center"> свободное время</td>
+	  		<td align="center" colspan="6">Выходной</td>
+	  	</tr>
+	  </table>
+	   </div>
+	  </div>
+    </ol>
+
+    <ul>
+    	<li>Создавать ненумерованный список</li>
+    	<li>Вставлять картинку на страницу</li>
+    	<img src="foto1.jpg" height ="150px" widht="100px" border="2px" alt=""/>
+        <li>Создавать поле для ввода имени и пароля </li>
+        <form action="url" method="GET"> 
+        	<input type="text" name="Имя пользователя"/>
+        </form>
+        <form action="url" method="POST">
+            <input type="password" name="Пароль"/> <br/> 
+            <input type="submit" value="Отправить">
+        </form>	
+    </ul>
+   <h2><p> Мои контакты</p></h2>
+   <p> Вы можете отправить мне свои комментарии:</p>
+   <form>
+   	  <p>Ваше имя<input type="text" name="name"></p>
+   	  <p>Ваш e-mail<input type="email" name="email"></p>
+   	  <textarea name="message"> Комментарий</textarea><br/>
+   	  <input type="submit" value="Отправить" class="submit"/>
+   </form>
+
+</body>
+
+</html>
