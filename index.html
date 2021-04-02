@@ -7,7 +7,8 @@
 	<title>Обо мне</title>
 </head>
 <body>
-	<h1> <spen><p align="center">Основная информация</p></spen></h1>
+	<header>
+	 <h1> <span><p align="center">Основная информация</p></span></h1>
 	  <div style="background-color: #ff0346; color:black; padding: 10px;">
 		<hr width="50%" align="center"/>
 		        <p align="center" style="color:#c0ff00"> Привет! Меня зовут Юлия. Я учусь верстке. Это моя первая страница...и надеюсь не последняя... </p>
@@ -65,12 +66,14 @@
 	  </table>
 	   </div>
 	  </div>
-    </ol>
+     </ol>
 
-    <ul>
+     <ul>
     	<li>Создавать ненумерованный список</li>
     	<li>Вставлять картинку на страницу</li>
     	<img src="foto1.jpg" height ="150px" widht="100px" border="2px" alt=""/>
+    	<li>Добавлять аудиоплеер на страницу</li>
+    	<audio src="06. Enigma - Voyageur.mp3" controls autoplay="06. Enigma - Voyageur.mp3"></audio>
         <li>Создавать поле для ввода имени и пароля </li>
         <form action="url" method="GET"> 
         	<input type="text" name="Имя пользователя"/>
@@ -79,16 +82,16 @@
             <input type="password" name="Пароль"/> <br/> 
             <input type="submit" value="Отправить">
         </form>	
-    </ul>
-   <h2><p> Мои контакты</p></h2>
-   <p> Вы можете отправить мне свои комментарии:</p>
-   <form>
+     </ul>
+    <h2><p> <a>Мои контакты </a></p></h2>
+      <p> Вы можете отправить мне свои комментарии:</p>
+     <form>
    	  <p>Ваше имя<input type="text" name="name"></p>
    	  <p>Ваш e-mail<input type="email" name="email"></p>
    	  <textarea name="message"> Комментарий</textarea><br/>
    	  <input type="submit" value="Отправить" class="submit"/>
-   </form>
-
+     </form>
+    </header>
 </body>
 
 </html>
